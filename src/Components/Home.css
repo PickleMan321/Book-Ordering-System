@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+   
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+   width: 100%;
+    
+}
+
+.cover{
+    font-size: 70px;
+    padding-top: 200px;
+}

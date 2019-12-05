@@ -1,0 +1,223 @@
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.progress{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-color: #007cb7;
+    height: 85%;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.prog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.progdesc{
+    padding-left: 30px;
+}
+
+.viewprogress{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+   height: 25%;
+   color: white;
+    background-color: #007cb7;
+    border-top: 1px solid black;
+    padding-bottom: 5px;
+
+}
+
+.viewprogress:hover{
+    text-decoration: underline;
+    background-color: #005f8c;
+    color: #fed35b;
+}
+
+
+.combine1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    height: 40%;
+    width: 70%;
+}
+
+.combine2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    height: 70%;
+    width: 70%;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-color: #007cb7;
+    height: 85%;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.acc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.viewaccount{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+   height: 25%;
+   color: white;
+    background-color: #007cb7;
+    border-top: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.viewaccount:hover{
+    text-decoration: underline;
+    background-color: #005f8c;
+    color: #fed35b;
+}
+
+
+
+
+.order{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-color: #007cb7;
+    height: 50%;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+.Transaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.orderdesc{
+    padding-left: 30px;
+}
+
+.payment{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-color: #007cb7;
+    height: 50%;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.card{
+    display: flex;
+    font-size: 60px;
+    color:  #fed35b;
+  
+   
+}
+
+.Saved{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+
+.vieworder{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+   height: 25%;
+   color: white;
+    background-color: #007cb7;
+    border-top: 1px solid black;
+    padding-bottom: 5px;
+
+}
+
+.vieworder:hover{
+    text-decoration: underline;
+    background-color: #005f8c;
+    color: #fed35b;
+}
+
+.viewpayment{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+   height: 25%;
+   color: white;
+    background-color: #007cb7;
+    border-top: 1px solid black;
+    padding-bottom: 5px;
+ 
+ }
+
+ .viewpayment:hover{
+    text-decoration: underline;
+    background-color: #005f8c;
+    color: #fed35b;
+}

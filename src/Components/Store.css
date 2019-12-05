@@ -1,0 +1,159 @@
+.Store{
+    display: flex;
+   
+    
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+   width: 100%;
+    
+   
+}
+
+.connecter{
+    display: flex;
+    height: 100%;
+    width:100%;
+   
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.description{
+    display: flex;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.description:hover{
+text-decoration: underline;
+}
+
+.author{
+    display: flex;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: black;
+}
+
+.author:hover{
+    text-decoration: underline;
+    }
+
+.stars {
+    display: block;
+    margin: 0 auto;
+    height: 3vh;
+}
+
+.lefttab{
+display: flex;
+flex-direction: column;
+
+height: 100vh;
+width: 20vw;
+padding: 10px;
+}
+
+.connectbook{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    height: 60%;
+    background-color: #007cb7;
+    border: 2px solid black;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #007cb7;
+    text-decoration: none;
+    color: white;
+}
+
+.main:hover{
+    text-decoration: underline;
+    background-color: #005f8c;
+    color: #fed35b;
+}
+
+
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #007cb7;
+    text-decoration: none;
+    color: white;
+}
+.user:hover{
+    text-decoration: underline;
+    background-color: #005f8c;
+    color: #fed35b;
+}
+
+
+
+.right{
+display: flex;
+flex-direction: column;
+}
+
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 310px;
+    width: 70vw;
+   padding:10px;
+   border-bottom: 1px solid black;
+  
+}
+
+.books {
+    height: 20vh;
+    width: 15vw;
+    
+  }
+
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 310px;
+    width: 70vw;
+   padding:10px;
+   background-color: white;
+}
+

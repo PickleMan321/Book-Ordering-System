@@ -1,0 +1,101 @@
+.paymentplan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 90vh;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.creditcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: #007cb7;
+    height: 40%;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.creditcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 50%;
+    width: 60%;
+   
+}
+
+.visa{
+    height: 50px;
+    width: 90px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid grey;
+
+}
+
+.creditdetail{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.expire{
+    font-size: 15px;
+    color: darkgray;
+}
+
+.editcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #007cb7;
+    height: 20%;
+    width: 100%;
+   border-top: 1px solid black;
+
+}
+
+.change{
+    text-decoration: none;
+    color: white;
+}
+
+.change:hover{
+    color: #fed35b;
+}
+
+.addnew{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 40%;
+    width: 30%;
+    border-radius: 5px;
+    color: grey;
+    
+    border: dotted;
+}
+
+.addnew:hover{
+    background-color: lightsteelblue;
+}
+
+.add{
+    
+    color: #007cb7;
+}

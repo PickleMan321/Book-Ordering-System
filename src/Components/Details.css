@@ -1,0 +1,128 @@
+.accountdetails{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90vh;
+    
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    
+}
+
+.undertitle{
+    display: flex;
+    color: grey;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.place{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    
+}
+
+.infotable{
+    display:grid;
+   
+    grid-template-rows: 33% 33% 33% ;
+    height: 50vh;
+    width:90vh;
+    border: 2px solid #007cb7;
+    border-radius: 10px;
+    color: white;
+    background-color: #007cb7;
+
+}
+
+.namerow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid white;
+}
+
+
+
+.name{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+.undername{
+font-size: 15;
+font-weight: 300;
+}
+
+.emailrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid white;
+}
+.email{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+.underemail{
+    font-size: 15;
+font-weight: 300;
+}
+
+
+.passwordrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    
+}
+.password{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.underpassword{
+    font-size: 15;
+    font-weight: 300;
+}
+
+
+
+.arrow{
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+.arrow:hover{
+    color:#fed35b;
+}
+
+.arrowclick{
+    color: white;
+}
